@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Think Mart</title>
+    <link rel="stylesheet" href="../style/common.css">
+</head>
+<body>
+    <header>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/075/744/712/small_2x/mart-shopping-cart-logo-with-price-tag-and-shopping-trolley-icon-combination-white-icon-on-purple-background-retail-store-branding-online-shopping-business-logo-vector.jpg" alt="Think Mart logo">
+        <nav>
+            <ol>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Products.html">Products</a></li>
+                <li><a href="./Cart.html" class="active">Cart</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+                <li><a href="./Login.html">Logout</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <h2 class="page-title">Your Cart</h2>
+        <p class="sub">Review your items before checkout</p>
+        <div class="cart-layout">
+            <section>
+                <div class="cart-item">
+                    <div class="pic">💻</div>
+                    <div class="info"><h3>HP Pavilion Laptop</h3><p>Price: ₹58999</p></div>
+                    <input type="number" value="1" min="1" aria-label="Quantity">
+                    <strong>₹58999</strong>
+                    <button class="remove" title="Remove">&times;</button>
+                </div>
+                <div class="cart-item">
+                    <div class="pic">📱</div>
+                    <div class="info"><h3>Samsung Galaxy S24</h3><p>Price: ₹64999</p></div>
+                    <input type="number" value="1" min="1" aria-label="Quantity">
+                    <strong>₹64999</strong>
+                    <button class="remove" title="Remove">&times;</button>
+                </div>
+                <div class="cart-item">
+                    <div class="pic">⌚</div>
+                    <div class="info"><h3>Noise Smart Watch</h3><p>Price: ₹2499</p></div>
+                    <input type="number" value="2" min="1" aria-label="Quantity">
+                    <strong>₹4998</strong>
+                    <button class="remove" title="Remove">&times;</button>
+                </div>
+            </section>
+            <aside class="summary">
+                <h3>Order Summary</h3>
+                <p><span>Subtotal</span><span>₹128,996</span></p>
+                <p><span>Discount</span><span>-₹5,000</span></p>
+                <p><span>Delivery</span><span>Free</span></p>
+                <p class="total"><span>Total</span><span>₹123,996</span></p>
+                <button class="btn">Proceed to Checkout</button>
+            </aside>
+        </div>
+    </main>
+    <footer>&copy; 2026 Think Mart. All rights reserved.</footer>
+</body>
+</html>

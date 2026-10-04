@@ -1,0 +1,15 @@
+@import url('./common.css');
+#title-container{position:relative;height:380px;border-radius:26px;overflow:hidden;margin-bottom:40px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#3a1fb0,#7c4dff 55%,#ff4d8d);box-shadow:0 16px 40px rgba(80,40,200,.35)}
+#title-container video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+#title-container h1{position:relative;color:#fff;font-size:3rem;font-weight:800;text-align:center;padding:0 20px;text-shadow:0 4px 16px rgba(0,0,0,.45)}
+#products-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
+.card-header .pic{height:190px}
+#products-container .card-body h1{font-size:.95rem;font-weight:500;color:var(--mu)}
+#products-container .card-body h1:first-child{font-size:1.25rem;font-weight:700;color:var(--tx)}
+#products-container .card-body p{font-size:.85rem;color:var(--mu);margin-top:8px}
+#products-container .card-footer{display:flex;gap:10px}
+#products-container .card-footer button{flex:1;border:none;cursor:pointer;background:linear-gradient(90deg,var(--p),#9b6dff);color:#fff;padding:10px;border-radius:30px;font:600 .88rem 'Poppins',sans-serif;transition:.3s}
+#products-container .card-footer button:hover{transform:translateY(-3px);box-shadow:0 8px 16px rgba(124,77,255,.4)}
+#products-container .card-footer button:last-child{background:#fff;color:var(--p);border:2px solid var(--p)}
+#products-container .card-footer button:last-child:hover{background:var(--p);color:#fff}
+@media(max-width:600px){#title-container h1{font-size:1.8rem}}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Think Mart</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/075/744/712/small_2x/mart-shopping-cart-logo-with-price-tag-and-shopping-trolley-icon-combination-white-icon-on-purple-background-retail-store-branding-online-shopping-business-logo-vector.jpg">
+    <link rel="stylesheet" href="../style/auth.css">
+</head>
+<body>
+    <div class="auth-box">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/075/744/712/small_2x/mart-shopping-cart-logo-with-price-tag-and-shopping-trolley-icon-combination-white-icon-on-purple-background-retail-store-branding-online-shopping-business-logo-vector.jpg" alt="Think Mart logo">
+        <h2>Create Account</h2>
+        <p class="sub">Join Think Mart today</p>
+        <form action="./Login.html" method="get">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="10-digit number" pattern="[0-9]{10}" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Create password" minlength="6" required>
+            <button type="submit">Register</button>
+        </form>
+        <p class="switch">Already have an account? <a href="./Login.html">Login</a></p>
+    </div>
+</body>
+</html>

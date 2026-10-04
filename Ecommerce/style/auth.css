@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#4b23b8,#6c3ce9,#a58bff);padding:20px}
+.auth-box{background:#fff;width:100%;max-width:400px;padding:34px 30px;border-radius:16px;box-shadow:0 12px 35px rgba(0,0,0,.3);text-align:center}
+.auth-box img{height:70px;border-radius:12px;margin-bottom:10px}
+.auth-box h2{color:#4b23b8;margin-bottom:4px}
+.auth-box p.sub{color:#6b667a;font-size:.9rem;margin-bottom:18px}
+.auth-box label{display:block;text-align:left;font-weight:500;font-size:.9rem;margin:12px 0 4px}
+.auth-box input{width:100%;padding:11px;border:1px solid #ccc;border-radius:8px;font:inherit}
+.auth-box input:focus{outline:2px solid #6c3ce9;border-color:transparent}
+.auth-box button{width:100%;margin-top:20px;padding:12px;border:none;border-radius:8px;background:#6c3ce9;color:#fff;font:600 1rem 'Poppins',sans-serif;cursor:pointer;transition:.3s}
+.auth-box button:hover{background:#4b23b8;transform:translateY(-2px);box-shadow:0 6px 14px rgba(0,0,0,.25)}
+.auth-box .switch{margin-top:16px;font-size:.9rem;color:#6b667a}
+.auth-box .switch a{color:#6c3ce9;font-weight:600}
