@@ -1,0 +1,22 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+    /* All transition properties */
+    transition-property: background-color, width, height, font-size;
+    transition-duration: 2s, 3s, 3s, 2s;
+    transition-timing-function: ease-in, ease-out, ease-in-out, linear;
+    transition-delay: 1s, 2s, 0s, 1s;
+}
+
+div:hover {
+    background-color: aquamarine;
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+}
+
+div:active {
+    background-color: rgb(217, 29, 73);
+}
